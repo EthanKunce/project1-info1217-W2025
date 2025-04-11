@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Projects</title>
+</head>
+<body>
+    <section>
+        <h2>Server Build 2021</h2>
+        <p class="languages"><span>Languages:</span> Hardware + Debian Linux</p>
+        <p>
+            Worked with a budget to buy specific components for a Dell R720 (2012) enterprise server. Allocated
+            memory for a
+            triple channel configuration. Flashed the EEPROM propeitary
+            Dell PERC (PowerEdge Raid Card) into HBA (Host Bus Adaptor) mode for direct drive passthrough to the
+            Kernel. Acquired eight 4tb Seagate Iron Wolf
+            Harddrives to test hardware raid configurgations and Zettabyte File System (ZFS) software raid
+            configurations. Installed Proxmox Hypervisor to manage and allocate system resources to virtual
+            machines.
+        </p>
+    </section>
+
+    <section>
+        <h2>Server Build 2024</h2>
+        <p class="languages"><span>Languages:</span> Hardware + Debian Linux</p>
+        <p>
+            After the server build died (motherboard trace broken), I looked at using my up to date specifications
+            for my next server. Examined
+            the used computer component markets for consumer hardware with enterprise features like: motherboard ecc
+            support, high capcity ECC DRAM, 10GiB/Dual NIC, High threaded CPU, high Efficiency/Reliable PSU, 8x 3.5"
+            internal drive bays,
+            dedicated video transcoding GPU.
+        </p>
+    </section>
+
+    <section>
+        <h2>Windows Deployment Services (WDS) / Active Directory homelab</h2>
+        <p class="languages"><span>Languages:</span> Hardware</p>
+        <p>
+            Created a Windows Server 2022 virutal machine to use as a domain controller and deployment server. Then
+            setup serveral virtual machines to PXE boot to the deployment server to install windows.
+            Enacted group policy for automatted software installations and limit user access.
+        </p>
+    </section>
+
+    <section>
+        <h2>Configure Fortinet 40f Firewall</h2>
+        <p class="languages"><span>Languages:</span> Hardware</p>
+        <p>
+            Integrated a hardware firewall within my home network. The firewall enabled deep packet inspection and
+            intrusion prevention system by having devices sign on packets sent and recieved. By installing radius
+            server on my domain controller, We can directly integrate active directory user certificates to network
+            traffic.
+        </p>
+    </section>
+</body>
+</html>
