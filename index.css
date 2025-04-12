@@ -1,11 +1,250 @@
+body {
+    background-color: #f9f5DD;
+    font-family: Inconsolata, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color:#232323;
+}
+
+#wrap {
+    /* margin: 0 auto; */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6%;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    /* padding-right: 12%; */
+    padding-left: 0;
+}
+
+nav li {
+    margin-right: 20%;
+    font-size: 1.4em;
+    white-space: nowrap;
+    padding: 2% 0%;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+nav a[href="Project1.html"]:hover >  li{
+    width:0;
+    color:#AA7DFC;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    /* background-color: #232323; */
+}
+
+nav a{
+    text-decoration: none;
+    color: #232323;
+}
+
+h1 {
+    padding-left: 6%;
+}
+
+/* a[href="Project1.html"]:hover {
+    width: 0;
+    color:#AA7DFC;
+} */
+nav a[href="Project1.html"]:hover >  li{
+    width:0;
+    color:#AA7DFC;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    /* background-color: #232323; */
+}
+nav a[href="workExperience.html"]:hover > li{
+    width:0;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    color:#ff5794;
+}
+nav a[href="SoftwareProjects.html"]:hover li{
+    width:4%;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    color:#FAA23D;
+}
+nav a[href="ITProjects.html"]:hover > li{
+    width:0;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    color:#b2E64C;
+}
+nav a[href="Ethan Kunce Resume Sep 2024.pdf"]:hover > li{
+    width:0;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    color:#66cce1;
+}
+nav a[href="mailto:ethan@kunce.ca"]:hover > li{
+    width:0;
+    font-weight: 400;
+    text-shadow: 0 0 1px #232323;
+    color:#5596f1;
+}
+
+aside {
+    right: -10;
+    /* top: 70%; */
+    width: 15%;
+    height:auto;
+    position: fixed;
+    /* background-color: #ffffff; */
+    /* background-color: #f9f5DD; */
+
+}
+
+aside img {
+    width: 90%;
+    object-fit:contain;
+}
+
+/* section {
+    margin-bottom: 10%;
+} */
+
+h2, h3, h4 {
+    background-color: #171717;
+
+    color: #AA7DFC;
+    /* margin-bottom: 0; */
+    margin: 0 auto;
+    padding: 0 6%;
+    padding-bottom: 1%;
+    text-shadow: 2px 2px black;
+}
+
+section h3 {
+    color: #ff5794;
+    padding: 0 10%;
+    padding-bottom: 1%;
+
+}
+
+
+section h4 {
+    color: #e6db7a;
+    padding: 0 13%;
+    padding-bottom: 1%;
+
+}
+
+section ul {
+    /* list-style: inside none; */
+    list-style-type: ">";
+    /* background-size: contain; */
+    /* margin-left: 3%; */
+    padding: 0 3%;
+}
+
+
+
+section li {
+    margin: 2% 0;
+    padding-left: 3%;
+    /* magin */
+}
+section li:first-child{
+    margin-top: 0;
+}
+
+
+section p {
+    font-size: 0.8em;
+    padding: 0 8%;
+}
+
+.date {
+    text-align: right;
+    font-weight: 600;
+}
+
+section img {
+    width: 100%;
+    object-fit: contain;
+}
+
+section span {
+    /* float: right; */
+    /* display: none; */
+    font-weight: 800;
+}
+
+footer {
+    background-color: #232323;
+    padding: 2% 8%;
+}
+
+footer ul {
+    margin: 0 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer li a {
+    text-decoration: none;
+}
 
 
 @media screen and (min-width: 480px) {
+    
+    #wrap {
+        margin: 0 auto;
+        /* display: flex; */
+        margin-left: 176px;    
+        padding-left: 8px;
+    }
 
+    nav {
+        position: fixed;
+        background-color: #232323;
+        margin: 0 auto;
+        height: 100%;
+        top: 0;
+        width: auto;
+        padding: 8px;
+    }
+    
+    nav h1 {
+        color: #AA7DFC;
+        text-align: center;
+    
+    }
 
 }
 
 @media screen and (min-width: 768px) {
 
+    #wrap {
+        margin: 0 auto;
+        /* display: flex; */
+        margin-left: 176px;    
+        padding-left: 8px;
+    }
 
+    nav {
+        position: fixed;
+        background-color: #232323;
+        margin: 0 auto;
+        height: 100%;
+        top: 0;
+        width: auto;
+        padding: 8px;
+    }
+    
+    nav h1 {
+        color: #AA7DFC;
+        text-align: center;
+    
+    }
 }
